@@ -13,7 +13,12 @@ body {
   text-align: center; }
 
 img {
-  border: 25px solid #333; }
+  border: 25px solid #333;
+  -webkit-transition: border 1s;
+  transition: border 1s; }
+
+img:hover {
+  border: 25px solid #555; }
 
 .cat li {
   display: inline-block;
@@ -49,7 +54,7 @@ a {
   margin: 0 5px;
   text-align: center;
   display: inline-block;
-  color: #111;
+  color: #333;
   -webkit-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
   transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1); }
 
@@ -75,7 +80,7 @@ a {
   transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1); }
 
 .footer-social-links a:hover {
-  color: #fff; }
+  color: #555; }
 
 .footer-social-links a:hover:before {
   background: #111; }
