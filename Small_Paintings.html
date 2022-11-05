@@ -22,10 +22,13 @@
 <li class="products">
   <p><img src="p/3.jpg" alt="example candle" width="250" height="300"> </p>
    <p>Size: Small Paintinge </p>
-    <p>Price: $100 + $10 shipping </p>
+    <p>Price: $60  </p>
+    <div class="displaynone">
+      + $10 shipping
+    </div>
     <p>Color: red </p>
-    <p>Scent: orange </p>
-    <p>Details: canvis
+    <p>Scent:  </p>
+    <p>Details: acrylic
     </p>
 
 
@@ -33,7 +36,7 @@
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">
           <p> Small Paintinge</p>
-          <select id="item-options"><option value="Small Paintinge" price="100"> Small Paintinge - 100 USD</option></select>
+          <select id="item-options"><option value="Small Paintinge" price="60"> Small Paintinge - 60 USD</option></select>
           <select style="visibility: hidden" id="quantitySelect"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>
         </div>
       <div id="paypal-button-container"></div>
@@ -51,7 +54,7 @@
     }
     var orderDescription = 'Small Paintinge';
     if(orderDescription === '') {
-      orderDescription = 'canvis';
+      orderDescription = 'acrylic';
     }
     paypal.Buttons({
       style: {

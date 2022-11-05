@@ -22,10 +22,13 @@
 <li class="products">
   <p><img src="p/9.jpg" alt="example candle" width="250" height="300"> </p>
    <p>Size: Rose Oil </p>
-    <p>Price: $7 + $12 shipping </p>
+    <p>Price: $7  </p>
+    <div class="displaynone">
+      + $12 shipping
+    </div>
     <p>Color: Clear </p>
     <p>Scent: rose </p>
-    <p>Details: baih oil , put in bath water for extra scent 8oz or 4oz
+    <p>Details: bath oil , put in bath water for softening skin.
     </p>
 
 
@@ -51,7 +54,7 @@
     }
     var orderDescription = 'Rose Oil';
     if(orderDescription === '') {
-      orderDescription = 'baih oil , put in bath water for extra scent 8oz or 4oz';
+      orderDescription = 'bath oil , put in bath water for softening skin.';
     }
     paypal.Buttons({
       style: {
