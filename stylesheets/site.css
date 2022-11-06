@@ -1,12 +1,12 @@
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 body {
-  background-color: #5092cf;
+  background-color: black;
   background-image: url("/images/sunflowr.png"), url("/images/p.png");
   background-position: top, bottom;
   background-repeat: no-repeat, repeat;
   background-size: cover, auto;
   color: lime;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   text-shadow: 2px 2px red;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
@@ -18,7 +18,7 @@ img {
   transition: border 1s; }
 
 .nodeco {
-  font-size: 50px;
+  font-size: 30px;
   color: green; }
 
 img:hover {
