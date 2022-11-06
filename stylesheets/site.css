@@ -108,3 +108,15 @@ li {
   text-decoration: none;
   display: inline-block;
   font-size: 16px; }
+
+.Announcement {
+  border: 1px solid red;
+  left: 0px;
+  top: 0;
+  font-size: 35px;
+  background-color: rgba(33, 243, 145, 0.21);
+  width: 90%;
+  margin: auto;
+  padding: auto;
+  padding-top: 10px;
+  border-radius: 10px; }
