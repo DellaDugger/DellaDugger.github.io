@@ -6,7 +6,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Welcome to Starshine Botanicals / Small Painting</title>
+    <title>Welcome to Starshine Botanicals hippie light</title>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
@@ -27,23 +27,23 @@
 
   
 <li class="products">
-  <p><img src="p/3.jpg" alt="example candle" width="250" height="300"> </p>
-   <p>Size: Small Paintinge </p>
-    <p>Price: $60  </p>
+  <p><img src="p/4.jpg" alt="example candle" width="250" height="300"> </p>
+   <p>Size: light </p>
+    <p>Price: $25  </p>
     <div class="displaynone">
-      + $10 shipping
+      + $12 shipping
     </div>
-    <p>Color: red </p>
+    <p>Color: day </p>
     <p>Scent:  </p>
-    <p>Details: acrylic
+    <p>Details: resin light with wild flowers
     </p>
 
 
     <div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">
-          <p> Small Paintinge</p>
-          <select id="item-options"><option value="Small Paintinge" price="60"> Small Paintinge - 60 USD</option></select>
+          <p> light</p>
+          <select id="item-options"><option value="light" price="25"> light - 25 USD</option></select>
           <select style="visibility: hidden" id="quantitySelect"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>
         </div>
       <div id="paypal-button-container"></div>
@@ -53,16 +53,16 @@
 &enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
     <script>
       function initPayPalButton() {
-        var shipping = 10 ;
+        var shipping = 12 ;
         var itemOptions = document.querySelector("#smart-button-container #item-options");
     var quantity = parseInt(10);
     var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
     if (!isNaN(quantity)) {
       quantitySelect.style.visibility = "visible";
     }
-    var orderDescription = 'Small Paintinge';
+    var orderDescription = 'light';
     if(orderDescription === '') {
-      orderDescription = 'acrylic';
+      orderDescription = 'resin light with wild flowers';
     }
     paypal.Buttons({
       style: {
@@ -199,6 +199,9 @@
 </div>
 
 </ul>
+
+
+
 <a href="https://www.usps.com/business/prices.htm" target="_blank">*shipping rate depends on amount of items ordered + size.</a>
 <br>
 <a href="productreviews.html" title="Reviews" target="_blank">Comments And Reviews</a>
