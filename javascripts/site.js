@@ -7,4 +7,11 @@ $(document).ready(function() {
               checkoutButtonStyle: 'paypal' // default, paypal, image
           }
       });
+
+
+    $( ".sc-cart-toolbar" ).after( "<div class='clearfix'></div>" );
+    $( ".sc-add-to-cart" ).click(function() {
+    $(this).text( "Thank You" );
+    
+});
   });

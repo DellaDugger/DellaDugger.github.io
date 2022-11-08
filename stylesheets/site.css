@@ -5,6 +5,8 @@ body {
   background-position: top, bottom;
   background-repeat: no-repeat, repeat;
   background-size: cover, auto;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed , auto;
   color: lime;
   font-size: 20px;
   font-weight: bold;
@@ -125,3 +127,33 @@ li {
   background-color: rgba(33, 243, 145, 0.5) !important;
   color: black !important;
   border: 1px solid black !important; }
+
+button img {
+  display: block;
+  margin: auto;
+  padding: auto;
+  border: none; }
+
+button img:hover {
+  border: none;
+  opacity: .9; }
+
+.sc-cart-summary-subtotal, .sc-cart-item {
+  margin-right: 15px; }
+
+.sc-cart-toolbar {
+  display: block;
+  margin-right: 15px;
+  float: right; }
+
+.sc-cart-toolbar > button {
+  display: block;
+  margin: 5px; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.btn-danger {
+  float: right; }
