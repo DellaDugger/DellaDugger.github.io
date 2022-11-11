@@ -1,3 +1,7 @@
+
+
+
+
 body {
   background-color: black;
   background-image: url("../images/sunflowr.png"), url("../images/p.png");
@@ -211,5 +215,23 @@ float: right;
 }
 .demo img{
  border: none;
+
+}
+@media screen and (max-width: 500px) {
+body {
+  background-color: black;
+  background-image: url("../images/sunflowr.png"), url("../images/p.png");
+  background-position: top, bottom;
+  background-repeat: no-repeat, repeat;
+  background-size: cover, auto;
+  font-size: 15px;
+
+/* Create the parallax scrolling effect */
+background-attachment:scroll,scroll;
+}
+.sc-product-item img{
+  display: inline-block!important;
+   width:125px;
+   height:150px;
 
 }
