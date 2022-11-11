@@ -209,3 +209,7 @@ float: right;
    width:250px;
    height:300px;
 }
+.demo img{
+ border: none;
+
+}
